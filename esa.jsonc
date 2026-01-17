@@ -4,12 +4,8 @@
     },
     "routes": [
         {
-            "src": "^/$",
-            "dest": "/117.html"
-        },
-        {
-            "src": "^/(.*)$",
-            "dest": "/$1"
+            "src": ".*",
+            "dest": "/index.html"
         }
     ]
 }
